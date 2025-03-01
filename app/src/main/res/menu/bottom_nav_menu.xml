@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_mac_address"
+        android:icon="@drawable/ic_person"
+    android:title="MAC Address" />
+    <item
+        android:id="@+id/nav_signal_strength"
+        android:icon="@drawable/ic_dialog"
+    android:title="Signal Strength" />
+    <item
+        android:id="@+id/nav_map"
+        android:icon="@drawable/ic_map"
+    android:title="Map" />
+</menu>

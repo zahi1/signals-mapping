@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Input for Signal Strength 1 -->
+    <EditText
+        android:id="@+id/strengthInput1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Signal Strength 1"
+        android:inputType="number" />
+
+    <!-- Input for Signal Strength 2 -->
+    <EditText
+        android:id="@+id/strengthInput2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Signal Strength 2"
+        android:inputType="number" />
+
+    <!-- Input for Signal Strength 3 -->
+    <EditText
+        android:id="@+id/strengthInput3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Signal Strength 3"
+        android:inputType="number" />
+
+    <!-- Button to Add Strength Points -->
+    <Button
+        android:id="@+id/addStrengthButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Strength" />
+
+    <!-- ListView to Display Strength Points -->
+    <ListView
+        android:id="@+id/strengthListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Button to Calculate Nearest Neighbor -->
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate" />
+
+    <Button
+        android:id="@+id/viewMapButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Map" />
+
+    <!-- TextView to Display Joined Data Results -->
+    <TextView
+        android:id="@+id/joinedDataTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculated Coordinates will appear here"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
