@@ -26,8 +26,8 @@
 
 ### **1️⃣ Clone the repository**
 ```sh
-git clone https://github.com/YOUR_GITHUB_USERNAME/Project_MIS_SignalStrength.git
-cd Project_MIS_SignalStrength
+git clone https://github.com/YOUR_GITHUB_USERNAME/signals-mapping.git
+cd signals-mapping
 ```
 
 ### 2️⃣ Open the project in Android Studio
@@ -75,10 +75,4 @@ git push origin feature-name
 
 ## 📜 License
 This project is licensed under the MIT License.
-
----
-
-## 📬 Contact
-For questions or contributions, feel free to reach out:
-📧 Email: your-email@example.com
 
